@@ -1,0 +1,21 @@
+/* Add this CSS in your stylesheet */
+.social-icon {
+  color: #FFFFFF; /* Change icon color to white */
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.loc {
+  color: #FFFFFF; /* Change location text color to white */
+}
+
+@media (max-width: 576px){
+  .bar1 { 
+      display: none;
+  }
+  .d-flex.justify-content-center.align-items-center {
+      flex-direction: column; 
+      align-items: flex-start;  
+      margin-top: 10px; 
+  }
+}

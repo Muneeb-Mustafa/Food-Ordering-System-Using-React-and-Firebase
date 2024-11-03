@@ -1,0 +1,12 @@
+@media (max-width: 576px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+    .d-flex.align-items-center.justify-content-center {
+        flex-direction: column;
+        gap: 10px; /* Optional spacing between button and cart */
+    }
+}

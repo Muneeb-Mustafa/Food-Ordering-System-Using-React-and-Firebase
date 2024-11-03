@@ -1,0 +1,31 @@
+.icons {
+    font-size: 25px;
+    cursor: pointer; 
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.badge {
+    font-size: 0.75rem;
+    padding: 0.3em 0.5em;
+    border-radius: 50%;
+}
+
+@media (max-width: 576px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+    .d-flex.align-items-center.justify-content-center {
+        flex-direction: column;
+        gap: 10px;  
+    }
+}

@@ -1,0 +1,95 @@
+@import "./scss/hero";
+@import "./scss/ExampleCarouselImage";
+@import "./scss/popularProducts";
+@import "./scss/section2";
+@import "./scss/section3";
+@import "./scss/section4";
+@import "./scss/imageSlider";
+@import "./scss/footer";
+@import "./scss/.hero";
+@import "./scss/team";
+@import "./scss/testimonial";
+@import "./scss/contactForm";
+@import "./scss/navbar";
+@import "./scss/checkout"; 
+@import "./scss/singleProduct";
+@import "./scss/login";
+@import "./scss/registerpage";
+@import "./scss/pagenotfound";
+@import "./scss/accessdenied";
+@import "./scss/sellerheader"; 
+@import "./scss/screenLoader";
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1; 
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.breadcrumb-item a{
+  color: #000;
+}
+.breadcrumb-item a:hover{
+  color: #000;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+a {
+  color: #fff; /* Change to your desired color */
+  text-decoration: none; /* Remove underline (optional) */
+}
+
+a:hover {
+  color: #fff; /* Change hover color */
+}
+body{
+  overflow-x: hidden;
+} 
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,22 @@
+.btn{
+    padding: 18px 25px;
+    border-radius: 20px; 
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+ 
+.pop_products{ 
+    background-color: #000;
+    font-weight: 600;
+    color: #fff;
+    padding: 14px 41px;
+    border: none;
+    border-radius: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}  
+.pop_products:hover {
+    background-color: red;
+    color: #fff; 
+}

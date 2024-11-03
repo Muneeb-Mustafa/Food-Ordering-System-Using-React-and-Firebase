@@ -1,0 +1,61 @@
+
+
+.sectionStyle { 
+    background-image: url('../../src/Images/aboutimage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;  
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff; // Text color
+    text-align: center; 
+  }
+  .sectionStyles { 
+  background-image: url('../../src/Images/aboutimage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;  
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff; // Text color
+    text-align: center; 
+}
+  .sectionStyles h4{ 
+    color: black;
+}
+  .carousel-caption-center {
+    position: absolute; // Positioning for centered caption
+    top: 50%; // Center vertically
+    left: 50%; // Center horizontally
+    width: 100%;
+    transform: translate(-50%, -50%); // Adjust for true center
+}
+
+
+@media (max-width: 576px){
+  .carousel-control-prev,
+    .carousel-control-next {
+        display: none; // Hide controls on mobile
+    }
+  #des {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .sectionStyles {
+    height: 200px; // Adjust height for smaller screens
+  }
+  .sectionStyles h4{
+    color: #fff;// Adjust height for smaller screens
+  }
+  .carousels h1 {
+    font-size: 35px;
+  }
+  .carousels p {
+    font-size: 14px;
+    font-weight: bold;
+  }
+}

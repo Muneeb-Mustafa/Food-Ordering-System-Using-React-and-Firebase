@@ -1,0 +1,34 @@
+.sect-2 {
+  padding: 100px 0px;
+}
+.sec-2 p{
+    text-align: left;
+    padding-right: 100px;
+    color: #767676;
+}
+ 
+.btn1{ 
+  background-color: #000;
+  font-weight: 600;
+  color: #fff;
+  padding: 14px 41px;
+  border: none;
+  border-radius: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}  
+.btn1:hover {
+  background-color: #AE845F;
+  color: #fff; 
+}
+@media (max-width: 576px) {
+  .sect-2 {
+    padding: 50px 0px;
+  }
+  .sect-2 p{
+    text-align: center;
+    padding: 0px 10px; 
+}
+.burger{
+  display: none;
+} 
+}

@@ -1,0 +1,25 @@
+ .spinner-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.685);
+        z-index: 1000;
+      }
+
+.comments_section {
+  margin-top: 20px;
+}
+
+.comment {
+  background-color: #ffffff;
+  transition: background-color 0.3s;
+}
+
+.comment:hover {
+  background-color: #f1f1f1; /* Add a hover effect for better UX */
+}
